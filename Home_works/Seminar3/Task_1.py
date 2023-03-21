@@ -22,6 +22,7 @@ for i in range(len(array)):
         result = result + 1
 
 
+
 if result > 0 :
     print(result)
 else :
