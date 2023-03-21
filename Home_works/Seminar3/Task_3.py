@@ -53,3 +53,4 @@ sum_of_points = 0
 
 
 print(sum(direct_1[letter.upper()] for letter in word if letter.upper() in direct_1))
+
