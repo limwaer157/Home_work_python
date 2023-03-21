@@ -13,10 +13,8 @@
 #     Input2: 3 9 12 15 18
 #     Output: Повторяющихся чисел нет
 
-import socketserver
 
 mnoj_list_1 = set([2 ,4, 6, 8 ,10 ,10 ,8 ,6 ,4 ,2])
-
 mnoj_list_2 = set([3, 9, 12 ,15 ,18])
 
 x = mnoj_list_1.isdisjoint(mnoj_list_2)  
