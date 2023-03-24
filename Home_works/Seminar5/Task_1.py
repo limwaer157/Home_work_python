@@ -12,9 +12,6 @@ b = int(input("math pow -  "))
 
 def math_pow(a,b):
     if b == 0 : return 1
-    
     return a * math_pow(a , b- 1)
-        
-        
-
+             
 print(math_pow(a,b))
