@@ -12,3 +12,15 @@
 #     Input1: 11, 92, 1, 42, 15, 12, 11, 81
 #     Output1: Макс. кол-во ягод 184, собрано для куста 1
 
+list_1 = [11, 92, 1, 42, 15, 12, 11, 81]
+max_plant = 0
+index = 0
+for i in range(-1 ,len(list_1), 3):
+    result = 0
+    result = list_1[i] +list_1[i+1]+ list_1[i+2]
+    if result > max_plant:
+        max_plant = result
+        index = i + 2
+   
+
+print(f"Макс. кол-во ягод {max_plant}, собрано для куста {index}")
