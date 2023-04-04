@@ -21,7 +21,15 @@
 
 size = 4
 
-for i in range(size):
-    print(i +1,)
-    for j in range(size):
-        print(j +1,end=" ")
+def tablitca(operation, numRows=9, numColumns=9):
+    if operation(1,1)==2:
+        print(1,end='\t')
+
+    for row in range(1, numRows+1):
+        for columns in range(1, numColumns+1):
+            if operation(1,1)==2:
+                columns=columns-1
+            print(operation(row,columns), end='\t')
+        print()
+
+print(tablitca(lambda x,y: x*y, 6, 6))
