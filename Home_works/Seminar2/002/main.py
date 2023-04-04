@@ -22,3 +22,4 @@ for i in range(number_sum):
     for j in range(number_proizv):
         if number_sum == i + j and number_proizv == i * j:
             print(i, j)
+

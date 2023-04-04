@@ -23,6 +23,7 @@ for i in range(len(array)):
 
 
 
+
 if result > 0 :
     print(result)
 else :
