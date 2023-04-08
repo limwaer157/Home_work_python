@@ -26,7 +26,7 @@ data = "пара-ра-рам рам-пуум-пупам па-ре-по-дам"
 def win_and_puh(data:str):
     result = []
     for word in data.split():
-        voice = ['а','у' ,'е']
+        voice = ['а','у' ,'е',"о"]
         count = 0
         for i in word:
             if i in voice:
